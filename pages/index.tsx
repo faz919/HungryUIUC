@@ -1,7 +1,6 @@
 import { useRef } from 'react'
 import Header from '../components/Header'
 import ProductCard from '../components/ProductCard'
-import getProducts from '../sfcc.js'
 
 export default function Gallery({ data }) {
   let coffeeRef = useRef<HTMLParagraphElement>()
@@ -38,14 +37,4 @@ export default function Gallery({ data }) {
       </div>
     </>
   )
-}
-
-export async function getStaticProps() {
-  const searchResults = await getProducts('coffee')
-
-  return {
-    props: {
-      data: searchResults,
-    },
-  }
 }
