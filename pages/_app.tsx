@@ -1,6 +1,23 @@
-import '@/styles/globals.css'
-import type { AppProps } from 'next/app'
+import '../styles/globals.css'
+import Footer from '../components/Footer'
+import Head from 'next/head'
+import { Montserrat } from 'next/font/google'
 
-export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+const montserrat = Montserrat({
+  subsets: ['latin'],
+  variable: '--font-montserrat',
+})
+
+export default function MyApp({ Component, pageProps }) {
+  return (
+    <>
+      <Head>
+        <title>The Coffee House</title>
+      </Head>
+      <main className={`${montserrat.variable} font-sans`}>
+        <Component {...pageProps} />
+        <Footer />
+      </main>
+    </>
+  )
 }
