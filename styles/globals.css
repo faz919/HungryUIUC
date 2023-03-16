@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.uiuc-orange {
+    color: #FF5F05
+}

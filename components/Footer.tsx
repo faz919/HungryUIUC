@@ -5,7 +5,7 @@ export default function Footer() {
       <span>|</span>
       <a
         href="https://github.com/vercel/next.js/tree/canary/examples/with-sfcc"
-        className="font-medium text-orange-600"
+        className="font-medium uiuc-orange"
       >
         Source code
       </a>

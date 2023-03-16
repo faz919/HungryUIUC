@@ -1,8 +1,9 @@
 import { useRef } from 'react'
 import Header from '../components/Header'
 import ProductCard from '../components/ProductCard'
+import data from "../data/data.json"
 
-export default function Gallery({ data }) {
+export default function Gallery() {
   let coffeeRef = useRef<HTMLParagraphElement>()
 
   const scrollHandler = (e) => {

@@ -6,7 +6,7 @@ export default function Document() {
       <Head>
         <meta
           name="description"
-          content="The premiere coffee delivery service."
+          content="For those hungry folks at U of I."
         />
       </Head>
       <body>
