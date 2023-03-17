@@ -5,12 +5,12 @@ import Sponsors from '../components/Sponsors'
 import data from "../data/data.json"
 
 export default function Gallery() {
-  let coffeeRef = useRef<HTMLParagraphElement>()
+  let mapRef = useRef<HTMLParagraphElement>()
 
   const scrollHandler = (e) => {
     e.preventDefault()
     // @ts-ignore
-    coffeeRef.scrollIntoView({
+    mapRef.current.scrollIntoView({
       behavior: 'smooth',
       block: 'start',
     })
@@ -24,9 +24,8 @@ export default function Gallery() {
           <div className="text-center">
             <p
               className="mt-1 text-4xl font-bold uppercase text-gray-900 sm:text-5xl sm:tracking-tight lg:text-5xl"
-              ref={coffeeRef}
             >
-              Crafted by us, for you
+              Meal Schedule
             </p>
           </div>
         </div>
@@ -35,6 +34,16 @@ export default function Gallery() {
             data.map((product) => (
               <ProductCard product={product} key={product.id} />
             ))}
+        </div>
+        <div className="sm:py-15 mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8">
+          <div className="text-center">
+            <p
+              className="mt-1 text-4xl font-bold uppercase text-gray-900 sm:text-5xl sm:tracking-tight lg:text-5xl"
+              ref={mapRef}
+            >
+              Campus Map
+            </p>
+          </div>
         </div>
       </div>
       <Sponsors />
