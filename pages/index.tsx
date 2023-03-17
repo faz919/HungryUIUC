@@ -1,4 +1,5 @@
 import { useRef } from 'react'
+import CampusMap from '../components/CampusMap'
 import Header from '../components/Header'
 import ProductCard from '../components/ProductCard'
 import Sponsors from '../components/Sponsors'
@@ -46,6 +47,7 @@ export default function Gallery() {
           </div>
         </div>
       </div>
+      <CampusMap />
       <Sponsors />
     </>
   )

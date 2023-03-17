@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import img from '../public/hero.jpg'
+import img from '../public/bg.png'
 
 export default function Header({ scrollHandler }) {
   return (
@@ -29,13 +29,21 @@ export default function Header({ scrollHandler }) {
 
             <div className="mx-auto mt-10 max-w-xs sm:flex sm:max-w-none sm:justify-center">
               <button
-                className="flex items-center justify-center rounded-md border border-transparent bg-white px-4 py-3 text-base font-medium uiuc-orange shadow-sm hover:bg-orange-100 sm:px-8"
+                className="flex items-center justify-center rounded-md border border-transparent bg-white px-4 py-3 text-base font-medium uiuc-orange shadow-sm duration-300 hover:bg-orange-100 sm:px-8"
                 onClick={scrollHandler}
               >
                 View Campus Map
               </button>
             </div>
           </div>
+          <div className="absolute top-3 right-3 justify-right h-10 flex">
+              <button
+                className="flex items-center justify-center rounded-md border border-white bg-transparent px-4 py-3 text-base font-medium uiuc-orange shadow-sm hover:bg-white sm:px-8"
+                onClick={scrollHandler}
+              >
+                About
+              </button>
+            </div>
         </div>
       </div>
     </header>

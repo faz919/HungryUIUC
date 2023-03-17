@@ -2,7 +2,13 @@
     {
         "id": "weekly-schedule",
         "name": "Weekly Schedule",
-        "shortDescription": "Free lunches and dinners at various cultural and religious centers on campus.",
+        "shortDescription": "Free meals at various cultural and religious centers on campus.",
+        "image": "/../public/weekly_schedule.png"
+    },
+    {
+        "id": "uiuc-free-food",
+        "name": "Daily Events",
+        "shortDescription": "Free food events on campus, as they happen.",
         "image": "/../public/freefood.jpeg"
     }
 ]
