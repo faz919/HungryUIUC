@@ -5,3 +5,12 @@
 .uiuc-orange {
     color: #FF5F05
 }
+
+.option-image {
+    transition: 0.3s;
+    height: 100px;
+}
+
+.option-image:hover {
+    height: 120px;
+}

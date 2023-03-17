@@ -1,6 +1,7 @@
 import { useRef } from 'react'
 import Header from '../components/Header'
 import ProductCard from '../components/ProductCard'
+import Sponsors from '../components/Sponsors'
 import data from "../data/data.json"
 
 export default function Gallery() {
@@ -36,6 +37,7 @@ export default function Gallery() {
             ))}
         </div>
       </div>
+      <Sponsors />
     </>
   )
 }

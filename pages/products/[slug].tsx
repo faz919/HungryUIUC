@@ -8,7 +8,7 @@ export default function Product({ product }) {
           <Image
             alt="coffee"
             className="rounded-lg"
-            src={product.imageGroups[0].images[0].link}
+            src={product.image}
             width={560}
             height={640}
           />
