@@ -1,6 +1,6 @@
 import Image from "next/image";
 import ymca from "../public/ymca.jpeg"
-import hillel from "../public/hillel.webp"
+import iia from "../public/iia_logo.jpeg"
 
 export default function Sponsors() {
   return (
@@ -10,17 +10,17 @@ export default function Sponsors() {
       </div>
       <div className="center flex p-10 justify-center space-between">
         <Image
-          alt="sponsor ymca"
+          alt="University YMCA"
           src={ymca}
           className="mb-10 mr-100"
           height={150}
         />
-        {/* <Image
-          alt="sponsor ymca"
-          src={hillel}
+        <Image
+          alt="Interfaith In Action"
+          src={iia}
           className="mt-10 ml-100"
           height={150}
-        /> */}
+        />
       </div>
     </>
   )

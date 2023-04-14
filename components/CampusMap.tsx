@@ -3,11 +3,8 @@ import map from '../public/campus_map.png'
 
 export default function CampusMap() {
     return (
-        <div className="center mt-5 flex justify-center space-x-4 bg-[white] p-4 text-m">
-            <Image 
-                alt="campus map"
-                src={map}
-            />
-        </div>
+        <iframe src="https://www.google.com/maps/d/embed?mid=12eIVfNBAOgLdRXQqKjG341JoQBNxGAA&hl=en&ehbc=2E312F" className='iframe'>
+            Your browser does not support iframes.
+        </iframe>
     )
 }
