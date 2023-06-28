@@ -6,14 +6,23 @@
     color: #FF5F05
 }
 
-.option-image {
+/* .option-image div h3 {
+    transform: translateY(0px);
     transition: 0.3s;
-    height: 100px;
 }
 
-.option-image:hover {
-    height: 120px;
+.option-image div h3:hover {
+    transform: translateY(-30px);
 }
+
+.option-image p {
+    transform: translateY(0px);
+    transition: 0.3s;
+}
+
+.option-image p:hover {
+    transform: translateY(-30px);
+} */
 
 
 .iframe {
