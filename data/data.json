@@ -7,8 +7,14 @@
     },
     {
         "id": "uiuc-free-food",
-        "name": "Daily Events",
+        "name": "Pop-up Events",
         "shortDescription": "Free food events on campus, as they happen.",
         "image": "/../public/freefood.jpeg"
+    },
+    {
+        "id": "uiuc-free-food",
+        "name": "Other Programs",
+        "shortDescription": "Seasonal orders, \"pay what you can\", and more.",
+        "image": "/../public/sola_gratia.jpeg"
     }
 ]

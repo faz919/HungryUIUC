@@ -4,6 +4,8 @@ import Header from '../components/Header'
 import ProductCard from '../components/ProductCard'
 import Sponsors from '../components/Sponsors'
 import data from "../data/data.json"
+import quotes from "../data/quotes.json"
+import Quote from '../components/Quote'
 
 export default function Gallery() {
   let mapRef = useRef<HTMLParagraphElement>()
@@ -17,14 +19,9 @@ export default function Gallery() {
     })
   }
 
-  const aboutHandler = (e) => {
-    e.preventDefault()
-
-  }
-
   return (
     <>
-      <Header scrollHandler={scrollHandler} mainPageHeader aboutHandler={aboutHandler} title={"Hungry?"} subtitle={"We got you."}/>
+      <Header scrollHandler={scrollHandler} mainPageHeader title={"Hungry?"} subtitle={"We got you."}/>
       <div className="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
         <div className="sm:py-15 mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8">
           <div className="text-center">
@@ -41,6 +38,17 @@ export default function Gallery() {
               <ProductCard product={product} key={product.id} />
             ))}
         </div>
+      </div>
+      <div className="w-max flex items-stretch mt-16">
+        {quotes &&
+          quotes.map((quote) => (
+            <div className='w-screen items-center quote-div'>
+              <Quote quote={quote} key={quote.id}/>
+            </div>
+          ))
+        }
+      </div>
+      <div className="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
         <div className="sm:py-15 mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8" ref={mapRef}>
           <div className="text-center">
             <p className="mt-1 text-4xl font-bold uppercase text-gray-900 sm:text-5xl sm:tracking-tight lg:text-5xl">

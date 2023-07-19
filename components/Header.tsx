@@ -1,8 +1,11 @@
 import Image from 'next/image'
 import img from '../public/bg.png'
 import { MouseEventHandler } from 'react'
+import Link from 'next/link'
+import { useRouter } from 'next/router'
 
-export default function Header({ scrollHandler, mainPageHeader, title, subtitle, aboutHandler }) {
+export default function Header({ scrollHandler, mainPageHeader, title, subtitle=" " }) {
+  const router = useRouter();
   return (
     <header className="relative">
       <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />
@@ -27,7 +30,7 @@ export default function Header({ scrollHandler, mainPageHeader, title, subtitle,
               <span className="block text-white drop-shadow-md">{title}</span>
               <span className="block uiuc-orange drop-shadow-md">{subtitle}</span>
             </h1>
-
+            {mainPageHeader && 
             <div className="mx-auto mt-10 max-w-xs sm:flex sm:max-w-none sm:justify-center">
               <button
                 className="flex items-center justify-center rounded-md border border-transparent bg-white px-4 py-3 text-base font-medium uiuc-orange shadow-sm duration-300 hover:bg-orange-100 sm:px-8"
@@ -35,17 +38,26 @@ export default function Header({ scrollHandler, mainPageHeader, title, subtitle,
               >
                 View Campus Map
               </button>
-            </div>
+            </div>}
           </div>
-          {mainPageHeader &&
-          <div className="absolute top-3 right-3 justify-right h-10 flex">
-            <button
-              className="flex items-center justify-center rounded-md border border-white bg-transparent px-4 py-3 text-base font-medium uiuc-orange shadow-sm hover:bg-white sm:px-8"
-              onClick={aboutHandler}
-            >
-              About
-            </button>
-          </div>}
+          {mainPageHeader ?
+            <div className="absolute top-3 right-3 justify-right h-10 flex">
+              <button
+                className="flex items-center justify-center rounded-md border border-white bg-transparent px-4 py-3 text-base font-medium uiuc-orange shadow-sm hover:bg-white sm:px-8"
+              >
+                <Link href={`/about`}>
+                  About
+                </Link>
+              </button>
+            </div> :
+            <div className="absolute top-3 right-3 justify-right h-10 flex">
+              <button
+                className="flex items-center justify-center rounded-md border border-white bg-transparent px-4 py-3 text-base font-medium uiuc-orange shadow-sm hover:bg-white sm:px-8"
+                onClick={() => router.back()}
+              >
+                Back
+              </button>
+            </div>}
         </div>
       </div>
     </header>
