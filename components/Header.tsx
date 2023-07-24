@@ -23,7 +23,7 @@ export default function Header({ scrollHandler, mainPageHeader, title, subtitle=
             <div className="absolute inset-0 bg-orange-100 mix-blend-multiply" />
           </div>
           <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
-            {/* <p className="relative left-0 right-0 mx-auto mt-5 max-w-xl text-center text-xl  font-semibold uppercase tracking-wide uiuc-orange">
+            {/* <p className="relative left-0 right-0 mx-auto mt-5 max-w-xl text-center text-xl font-semibold uppercase tracking-wide uiuc-orange">
               HungryUIUC
             </p> */}
             <h1 className="mt-1 text-center font-bold uppercase text-gray-900 sm:text-5xl sm:tracking-tight lg:text-7xl">
@@ -31,9 +31,9 @@ export default function Header({ scrollHandler, mainPageHeader, title, subtitle=
               <span className="block uiuc-orange drop-shadow-md">{subtitle}</span>
             </h1>
             {mainPageHeader && 
-            <div className="mx-auto mt-10 max-w-xs sm:flex sm:max-w-none sm:justify-center">
+            <div className="mx-auto mt-10 max-w-xs flex sm:max-w-none justify-center">
               <button
-                className="flex items-center justify-center rounded-md border border-transparent bg-white px-4 py-3 text-base font-medium uiuc-orange shadow-sm duration-300 hover:bg-orange-100 sm:px-8"
+                className="flex items-center justify-center rounded-md border-2 bg-white px-4 py-3 text-base font-medium shadow-sm sm:px-8 foreground-button"
                 onClick={scrollHandler}
               >
                 View Campus Map
@@ -43,7 +43,7 @@ export default function Header({ scrollHandler, mainPageHeader, title, subtitle=
           {mainPageHeader ?
             <div className="absolute top-3 right-3 justify-right h-10 flex">
               <button
-                className="flex items-center justify-center rounded-md border border-white bg-transparent px-4 py-3 text-base font-medium uiuc-orange shadow-sm hover:bg-white sm:px-8"
+                className="flex items-center justify-center rounded-md border-2 border-white bg-transparent px-4 py-3 text-base font-medium uiuc-orange shadow-sm background-button sm:px-8"
               >
                 <Link href={`/about`}>
                   About
@@ -52,7 +52,7 @@ export default function Header({ scrollHandler, mainPageHeader, title, subtitle=
             </div> :
             <div className="absolute top-3 right-3 justify-right h-10 flex">
               <button
-                className="flex items-center justify-center rounded-md border border-white bg-transparent px-4 py-3 text-base font-medium uiuc-orange shadow-sm hover:bg-white sm:px-8"
+                className="flex items-center justify-center rounded-md border-2 border-white bg-transparent px-4 py-3 text-base font-medium uiuc-orange shadow-sm background-button sm:px-8"
                 onClick={() => router.back()}
               >
                 Back

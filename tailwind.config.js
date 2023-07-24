@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     fontFamily: {
       sans: ['var(--font-montserrat)'],
-    },
+    }
   },
   future: {
     hoverOnlyWhenSupported: true,

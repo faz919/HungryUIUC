@@ -3,11 +3,35 @@
 @tailwind utilities;
 
 .uiuc-orange {
-    color: #FF5F05
+    color: #FF5F05;
+}
+
+.foreground-button {
+    color: #FF5F05;
+    border-color: #FF5F05;
+    transition: 0.4s;
+}
+
+.foreground-button:hover {
+    transform: translateY(-5px);
+    color: white;
+    background: #FF5F05;
+}
+
+.background-button {
+    color: white;
+    border-color: white;
+    transition: 0.4s;
+    background: transparent;
+}
+
+.background-button:hover {
+    color: #FF5F05;
+    background: white;
 }
 
 .quote-orange {
-    color: #ffaf82
+    color: #ffaf82;
 }
 
 .quote {
@@ -38,5 +62,5 @@
 }
 
 .quote-div {
-    top:0; left:0; bottom:0; right:0; width:100%; border:none; margin:0; padding:0; align-items: center; justify-content: center; 
+    top:0; left:0; bottom:0; right:0; border:none; margin:0; padding:0; align-items: center; justify-content: center; 
 }
