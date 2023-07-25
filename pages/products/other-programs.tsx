@@ -1,10 +1,6 @@
 import { useRef } from 'react'
-import CampusMap from '../components/CampusMap'
-import Header from '../components/Header'
-import ProductCard from '../components/ProductCard'
-import Sponsors from '../components/Sponsors'
-import data from "../data/data.json"
-import { useRouter } from 'next/router'
+import Header from "../../components/Header"
+import Sponsors from '../../components/Sponsors'
 
 export default function Gallery() {
   let mapRef = useRef<HTMLParagraphElement>()
@@ -27,7 +23,7 @@ export default function Gallery() {
             <p
               className="mt-1 text-4xl font-bold uppercase text-gray-900 sm:text-5xl sm:tracking-tight lg:text-5xl"
             >
-              Programs
+              Who we are
             </p>
           </div>
         </div>

@@ -31,11 +31,11 @@
 }
 
 .quote-orange {
-    color: #ffaf82;
+    color: #ff7f37;
 }
 
 .quote {
-    text-shadow: 1px 1px 50px #CCC;
+    text-shadow: 1px 1px 5px #CCC;
 }
 
 /* .option-image div h3 {

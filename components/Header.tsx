@@ -1,11 +1,8 @@
 import Image from 'next/image'
 import img from '../public/bg.png'
-import { MouseEventHandler } from 'react'
 import Link from 'next/link'
-import { useRouter } from 'next/router'
 
 export default function Header({ scrollHandler, mainPageHeader, title, subtitle=" " }) {
-  const router = useRouter();
   return (
     <header className="relative">
       <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />
@@ -42,21 +39,20 @@ export default function Header({ scrollHandler, mainPageHeader, title, subtitle=
           </div>
           {mainPageHeader ?
             <div className="absolute top-3 right-3 justify-right h-10 flex">
-              <button
-                className="flex items-center justify-center rounded-md border-2 border-white bg-transparent px-4 py-3 text-base font-medium uiuc-orange shadow-sm background-button sm:px-8"
-              >
-                <Link href={`/about`}>
-                  About
+                <Link
+                  href={'/about'}
+                  className="flex items-center justify-center rounded-md border-2 border-white bg-transparent px-4 py-3 text-base font-medium uiuc-orange shadow-sm background-button sm:px-8"
+                >
+                    About
                 </Link>
-              </button>
             </div> :
             <div className="absolute top-3 right-3 justify-right h-10 flex">
-              <button
+              <Link
+                href={'/'}
                 className="flex items-center justify-center rounded-md border-2 border-white bg-transparent px-4 py-3 text-base font-medium uiuc-orange shadow-sm background-button sm:px-8"
-                onClick={() => router.back()}
               >
                 Back
-              </button>
+              </Link>
             </div>}
         </div>
       </div>
