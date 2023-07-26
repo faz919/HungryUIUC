@@ -1,7 +1,7 @@
 import quotes from "../data/quotes.json"
 import Quote from '../components/Quote'
 import { ChevronLeft, ChevronRight } from "react-feather" 
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 export default function QuoteCarousel() {
 
@@ -14,6 +14,12 @@ export default function QuoteCarousel() {
         setVisibleQuote((quote) => (quote === quotes.length - 1 ? 0 : quote + 1))
         console.log(`quote is now ${visibleQuote}`)
     }
+    useEffect(() => {
+        const next = setInterval(() => {
+            nextQuote();
+        }, 10000)
+        return () => clearInterval(next);
+    }, [nextQuote])
     return (
         <div className="overflow-hidden relative pt-16 pb-5">
             <div className='flex transition-transform ease-in-out duration-700' style={{ transform: `translateX(-${visibleQuote * 100}%)` }}>

@@ -1,0 +1,23 @@
+[
+    {
+        "id": "red-herring",
+        "name": "Red Herring Meal Club",
+        "shortDescription": "Free meals at various cultural and religious centers on campus.",
+        "link": "",
+        "image": "/../public/weekly_schedule.png"
+    },
+    {
+        "id": "sola-gratia",
+        "name": "Sola Gratia Farm CSA",
+        "shortDescription": "Members in Sola Gratia Farm will receive fresh, seasonal vegetables from the farm weekly during the growing season.",
+        "link": "",
+        "image": "/../public/freefood.jpeg"
+    },
+    {
+        "id": "bevier-cafe",
+        "name": "Everybody Eats at Bevier Cafe",
+        "shortDescription": "Seasonal orders, \"pay what you can\", and more.",
+        "link": "",
+        "image": "/../public/sola_gratia.jpeg"
+    }
+]

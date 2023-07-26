@@ -27,7 +27,7 @@ export default function Gallery() {
             <p
               className="mt-1 text-4xl font-bold uppercase text-gray-900 sm:text-5xl sm:tracking-tight lg:text-5xl"
             >
-              Programs
+              Who we are
             </p>
           </div>
         </div>
