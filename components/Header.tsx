@@ -23,7 +23,7 @@ export default function Header({ scrollHandler, mainPageHeader, title, subtitle=
             {/* <p className="relative left-0 right-0 mx-auto mt-5 max-w-xl text-center text-xl font-semibold uppercase tracking-wide uiuc-orange">
               HungryUIUC
             </p> */}
-            <h1 className="mt-1 text-center font-bold uppercase text-gray-900 sm:text-5xl sm:tracking-tight lg:text-7xl">
+            <h1 className="mt-1 text-center font-bold uppercase text-gray-900 text-4xl sm:text-5xl sm:tracking-tight lg:text-7xl">
               <span className="block text-white drop-shadow-md">{title}</span>
               <span className="block uiuc-orange drop-shadow-md">{subtitle}</span>
             </h1>
