@@ -29,7 +29,10 @@ export default function InfoBlock({ resource, reverse }) {
                 </div>
                 <p className="mt-1 text-md italic text-gray-500">
                     {resource.shortDescription}
-                </p>  
+                </p>
+                <p className="mt-1 italic underline">
+                    Learn More
+                </p>
             </div>
         </a>
     )

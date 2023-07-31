@@ -8,13 +8,9 @@ export default function Gallery() {
 
   return (
     <>
-      <Header scrollHandler={() => {}} mainPageHeader={false} title={"Other Resources"}/>
+      <Header scrollHandler={() => {}} mainPageHeader={false} title={"Pop-up Events"}/>
       <div className="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
-        {resources && 
-          resources.map((item, index) => (
-            <InfoBlock resource={item} reverse={index % 2 == 1} key={item.id} />
-          ))
-        }
+
       </div>
       <Sponsors />
     </>

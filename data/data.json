@@ -6,7 +6,7 @@
         "image": "/../public/weekly_schedule.png"
     },
     {
-        "id": "uiuc-free-food",
+        "id": "pop-up-events",
         "name": "Pop-up Events",
         "shortDescription": "Free food events on campus, as they happen.",
         "image": "/../public/freefood.jpeg"
