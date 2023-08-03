@@ -3,13 +3,13 @@
         "id": "weekly-schedule",
         "name": "Weekly Schedule",
         "shortDescription": "Free meals at various cultural and religious centers on campus.",
-        "image": "/../public/weekly_schedule.png"
+        "image": "/../public/weekly_schedule.jpg"
     },
     {
         "id": "pop-up-events",
         "name": "Pop-up Events",
         "shortDescription": "Free food events on campus, as they happen.",
-        "image": "/../public/freefood.jpeg"
+        "image": "/../public/pop_up_events.jpg"
     },
     {
         "id": "food-pantries",

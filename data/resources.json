@@ -16,8 +16,8 @@
     {
         "id": "bevier-cafe",
         "name": "Everybody Eats at Bevier Cafe",
-        "shortDescription": "Seasonal orders, \"pay what you can\", and more.",
-        "link": "",
-        "image": "/../public/sola_gratia.jpeg"
+        "shortDescription": "If you need a free meal, grab a token from the jar by the door and give it to the cashier. Otherwise, pay it forward by buying tokens so that somebody else may eat a free meal.",
+        "link": "https://beviercafe.illinois.edu/everybody-eats/",
+        "image": "/../public/bevier_cafe.png"
     }
 ]

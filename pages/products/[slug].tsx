@@ -24,16 +24,6 @@ export default function Product() {
               Description
             </div>
             <p className="max-w-xl">Hello</p>
-            <Timeline
-              dataSource={{
-                sourceType: 'profile',
-                screenName: 'uiucfreefood'
-              }}
-              options={{
-                height: '400',
-                width: '400'
-              }}
-            />
           </div>
         </div>
       </div>
