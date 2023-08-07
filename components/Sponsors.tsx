@@ -1,6 +1,6 @@
 import Image from "next/image";
 import ymca from "../public/ymca.jpeg"
-import iia from "../public/iia_logo.jpeg"
+import iia from "../public/interfaith_logo.png"
 
 export default function Sponsors() {
   return (
