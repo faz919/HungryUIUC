@@ -1,0 +1,42 @@
+[
+    {
+        "id": "sandys-sunday-bagel-brunch",
+        "name": "Sandy's Sunday Bagel Brunch",
+        "shortDescription": "Come by Illini Hillel for a bagel brunch to enjoy delicious bagels with friends.",
+        "link": "https://goo.gl/maps/T1vYagfKeAYyYrQB6",
+        "location": "Cohen Hillel, 503 E John St, Champaign",
+        "dayOfWeek": "Sunday",
+        "meal": "Brunch",
+        "time": "Weekly, 11:30am to 1:30pm"
+    },
+    {
+        "id": "quench",
+        "name": "Quench",
+        "shortDescription": "Join the Gender & Sexuality Resource Center for our Quench series as part of the Cultural & Resource Center Lunch on Us programming.",
+        "link": "https://gsrc.illinois.edu/programs/quench",
+        "location": "Women's Resource Center, 616 E. Green St. Suite 202, Champaign",
+        "dayOfWeek": "Monday",
+        "meal": "Lunch",
+        "time": "Odd Mondays (1st, 3rd, and 5th), 12:00pm to 1:00pm"
+    },
+    {
+        "id": "dish-it-up",
+        "name": "Dish It Up",
+        "shortDescription": "Join us for our Dish It Up/Lunch on Us Series at the Women's Resources Center every 2nd & 4th & 5th Monday at noon (12 p.m. CST), while listening to speakers, lecturers, and panelists explore a variety of topics at the intersection of gender and other social identities.",
+        "link": "https://calendars.illinois.edu/detail/3079?eventId=33453402",
+        "location": "Women's Resource Center, 616 E. Green St. Suite 202, Champaign",
+        "dayOfWeek": "Monday",
+        "meal": "Lunch",
+        "time": "Even Mondays (2nd, 4th), 12:00pm to 1:00pm"
+    },
+    {
+        "id": "jubilee-cafe",
+        "name": "Jubilee Cafe",
+        "shortDescription": "Jubilee Cafe offers freshly cooked, made from scratch meals and non-perishable pantry items to college students and community members who struggle with food insecurity.",
+        "link": "https://community-ucc.org/jubilee-cafe/",
+        "location": "Community United Church of Christ, 805 S 6th St, Champaign",
+        "dayOfWeek": "Monday",
+        "meal": "Dinner",
+        "time": "Weekly, 5:00pm to 6:30pm"
+    }
+]
