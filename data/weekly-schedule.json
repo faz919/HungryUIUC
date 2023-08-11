@@ -38,5 +38,55 @@
         "dayOfWeek": "Monday",
         "meal": "Dinner",
         "time": "Weekly, 5:00pm to 6:30pm"
+    },
+    {
+        "id": "food-for-thought",
+        "name": "Food for Thought",
+        "shortDescription": "Food for Thought, a Lunch-on-Us series, is a weekly noontime discussion focused on topics relevant to the Asian American community. Past discussions include topics such as nutrition, mental health, sexual health, and media representation of Asian Americans.",
+        "link": "https://aacc.illinois.edu/programs/food-thought",
+        "location": "Asian American Cultural Center, 1210 W Nevada St, Urbana",
+        "dayOfWeek": "Tuesday",
+        "meal": "Lunch",
+        "time": "Weekly, 12:00pm to 1:00pm"
+    },
+    {
+        "id": "food-for-the-soul",
+        "name": "Food for the Soul",
+        "shortDescription": "Food for the Soul, part of the Lunch on Us series, is a weekly noontime discussion focused on topics relevant to the many communities globally within the African Diaspora and our allies.",
+        "link": "https://bnaacc2022.web.illinois.edu/programs/food-soul",
+        "location": "Bruce D. Nesbitt African American Cultural Center, 1212 W Nevada Street, Urbana",
+        "dayOfWeek": "Wednesday",
+        "meal": "Lunch",
+        "time": "Weekly, 12:00pm to 1:00pm"
+    },
+    {
+        "id": "uniplace-community-dinner",
+        "name": "UniPlace Christian Church Community Dinner",
+        "shortDescription": "Since 2012, UniPlace Christian Church has hosted a free community dinner for those in the Champaign-Urbana community.",
+        "link": "http://www.uniplace.org/wp-content/uploads/2018/04/Community-Dinner-Sponsorship-Information-new.pdf",
+        "location": "University Place Christian Church, 403 S Wright St, Champaign",
+        "dayOfWeek": "Wednesday",
+        "meal": "Dinner",
+        "time": "Weekly, 6:00pm"
+    },
+    {
+        "id": "NOT COMPLETE",
+        "name": "UniPlace Christian Church Community Dinner",
+        "shortDescription": "Since 2012, UniPlace Christian Church has hosted a free community dinner for those in the Champaign-Urbana community.",
+        "link": "http://www.uniplace.org/wp-content/uploads/2018/04/Community-Dinner-Sponsorship-Information-new.pdf",
+        "location": "University Place Christian Church, 403 S Wright St, Champaign",
+        "dayOfWeek": "Thursday",
+        "meal": "Lunch",
+        "time": "Weekly, 12:00pm to 1:00pm"
+    },
+    {
+        "id": "conversation-cafe",
+        "name": "Friday Forum + Conversation Cafe",
+        "shortDescription": "Join Diversity & Social Justice Education and the University YMCA for Friday Forum + Conversation Cafe! We will hear from community leaders tackling our most pressing public concerns through an unwavering pursuit of social justice.",
+        "link": "https://dsje.illinois.edu/programs/conversation-cafe",
+        "location": "University YMCA, 1001 S Wright St, Champaign",
+        "dayOfWeek": "Friday",
+        "meal": "Lunch",
+        "time": "Weekly, 12:00pm to 1:00pm"
     }
 ]
