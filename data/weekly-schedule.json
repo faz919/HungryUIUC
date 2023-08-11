@@ -70,11 +70,11 @@
         "time": "Weekly, 6:00pm"
     },
     {
-        "id": "NOT COMPLETE",
-        "name": "UniPlace Christian Church Community Dinner",
-        "shortDescription": "Since 2012, UniPlace Christian Church has hosted a free community dinner for those in the Champaign-Urbana community.",
-        "link": "http://www.uniplace.org/wp-content/uploads/2018/04/Community-Dinner-Sponsorship-Information-new.pdf",
-        "location": "University Place Christian Church, 403 S Wright St, Champaign",
+        "id": "lunch-at-la-casa",
+        "name": "Lunch at La Casa",
+        "shortDescription": "Lunch at La Casa is part of the Lunch on Us noontime discussion series. Lunch at La Casa takes place every Thursday during the academic year, and features interactive presentations focused in four areas: Campus Resources, Health and Wellness, College Living, and Community Connections.",
+        "link": "https://lacasa.illinois.edu/programs/lunch-on-us",
+        "location": "La Casa Cultural Latina, 1205 ½ West Nevada Street, Urbana",
         "dayOfWeek": "Thursday",
         "meal": "Lunch",
         "time": "Weekly, 12:00pm to 1:00pm"
