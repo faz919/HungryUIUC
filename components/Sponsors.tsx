@@ -8,11 +8,11 @@ export default function Sponsors() {
       <div className="center mt-5 flex justify-center space-x-4 bg-[white] p-4 text-m">
         <p>In collaboration with: </p>
       </div>
-      <div className="center flex p-10 justify-center space-between">
+      <div className="center flex p-10 pt-0 justify-center space-between">
         <Image
           alt="University YMCA"
           src={ymca}
-          className="mb-10 mr-100"
+          className="mt-10 mr-100"
           height={150}
         />
         <Image

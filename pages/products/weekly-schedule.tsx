@@ -1,5 +1,3 @@
-import Image from 'next/image'
-import { Timeline } from 'react-twitter-widgets'
 import Header from '../../components/Header'
 import Sponsors from '../../components/Sponsors'
 

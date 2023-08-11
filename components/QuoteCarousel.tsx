@@ -6,14 +6,8 @@ import { useEffect, useState } from "react"
 export default function QuoteCarousel() {
 
     const [visibleQuote, setVisibleQuote] = useState(0)
-    const prevQuote = () => {
-        setVisibleQuote((quote) => (quote === 0 ? quotes.length - 1 : quote - 1))
-        console.log(`quote is now ${visibleQuote}`)
-    }
-    const nextQuote = () => {
-        setVisibleQuote((quote) => (quote === quotes.length - 1 ? 0 : quote + 1))
-        console.log(`quote is now ${visibleQuote}`)
-    }
+    const prevQuote = () => { setVisibleQuote((quote) => (quote === 0 ? quotes.length - 1 : quote - 1)) }
+    const nextQuote = () => { setVisibleQuote((quote) => (quote === quotes.length - 1 ? 0 : quote + 1)) }
     useEffect(() => {
         const next = setInterval(() => {
             nextQuote();
@@ -25,8 +19,8 @@ export default function QuoteCarousel() {
             <div className='flex transition-transform ease-in-out duration-700' style={{ transform: `translateX(-${visibleQuote * 100}%)` }}>
                 {quotes &&
                     quotes.map((quote) => (
-                        <div className='w-screen items-center quote-div justify-items-center'>
-                            <Quote quote={quote} key={quote.id} />
+                        <div className='w-screen items-center quote-div justify-items-center' key={quote.id}>
+                            <Quote quote={quote} />
                         </div>
                     ))
                 }
