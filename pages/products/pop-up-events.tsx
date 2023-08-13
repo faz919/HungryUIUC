@@ -11,7 +11,8 @@ export default function Gallery() {
         <div className="sm:py-15 mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8">
           <div className="text-left mt-4 flex items-center justify-between text-base font-medium text-gray-900">
             <h3>
-              Follow <a href="https://twitter.com/UIUCFreeFood" className="text-blue-600 hover:text-blue-800 visited:text-purple-600">@UIUCFreeFood</a> on Twitter to get constant updates about pop-up free or low-cost food events around campus. Or, view a live feed of their tweets below.
+              <span>Follow <a href="https://twitter.com/UIUCFreeFood" className="text-blue-600 hover:text-blue-800">@UIUCFreeFood</a> on Twitter to get constant updates about pop-up free or low-cost food events around campus. Or, view a live feed of their tweets below.&nbsp;</span>
+              <span className="font-bold">(may take a second to show up)</span>
             </h3>
           </div>
         </div>

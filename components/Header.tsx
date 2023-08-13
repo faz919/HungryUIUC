@@ -15,14 +15,11 @@ export default function Header({ scrollHandler, mainPageHeader, title, subtitle=
               className="h-full w-full object-cover"
               src={img}
               placeholder="blur"
-              alt="Coffee grinder"
+              alt="Food on dark background"
             />
             <div className="absolute inset-0 bg-orange-100 mix-blend-multiply" />
           </div>
           <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
-            {/* <p className="relative left-0 right-0 mx-auto mt-5 max-w-xl text-center text-xl font-semibold uppercase tracking-wide uiuc-orange">
-              HungryUIUC
-            </p> */}
             <h1 className="mt-1 text-center font-bold uppercase text-gray-900 text-4xl sm:text-5xl sm:tracking-tight lg:text-7xl">
               <span className="block text-white drop-shadow-md">{title}</span>
               <span className="block uiuc-orange drop-shadow-md">{subtitle}</span>
