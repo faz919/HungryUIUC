@@ -3,24 +3,24 @@
         "id": "weekly-schedule",
         "name": "Weekly Schedule",
         "shortDescription": "Free meals at various cultural and religious centers on campus.",
-        "image": "../public/weekly_schedule.jpg"
+        "image": "/weekly_schedule.jpg"
     },
     {
         "id": "pop-up-events",
         "name": "Pop-up Events",
         "shortDescription": "Free food events on campus, as they happen.",
-        "image": "../public/pop_up_events.jpg"
+        "image": "/pop_up_events.jpg"
     },
     {
         "id": "food-pantries",
         "name": "Food Pantries",
         "shortDescription": "Packaged food and hot meals in Champaign county.",
-        "image": "../public/little_free_pantry.jpeg"
+        "image": "/little_free_pantry.jpeg"
     },
     {
         "id": "other-resources",
         "name": "Other Resources",
         "shortDescription": "Farm shares, a community food map, and more.",
-        "image": "../public/sola_gratia.jpeg"
+        "image": "/sola_gratia.jpeg"
     }
 ]

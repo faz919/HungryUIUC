@@ -4,20 +4,20 @@
         "name": "Eat. Move. Save.",
         "shortDescription": "Eat Move Save is a program offered by the University of Illinois Extension that focuses on promoting healthy lifestyle choices related to nutrition, physical activity, and saving money. This website also includes the Find Food IL Community Food Map which locates food pantries and more other resources near the university.",
         "link": "https://eat-move-save.extension.illinois.edu/",
-        "image": "../public/eat-move-save.png"
+        "image": "/eat-move-save.png"
     },
     {
         "id": "sola-gratia",
         "name": "Sola Gratia Farm CSA",
         "shortDescription": "Sola Gratia Farm offers a Community Supported Agriculture (CSA) program, providing weekly boxes of fresh, organic produce to members during the growing season.",
         "link": "https://www.solagratiacsa.com/produce",
-        "image": "../public/sola_gratia_logo.png"
+        "image": "/sola_gratia_logo.png"
     },
     {
         "id": "bevier-cafe",
         "name": "Everybody Eats at Bevier Cafe",
         "shortDescription": "If you need a free meal, grab a token from the jar by the door and give it to the cashier. Otherwise, pay it forward by buying tokens so that somebody else may eat a free meal.",
         "link": "https://beviercafe.illinois.edu/everybody-eats/",
-        "image": "../public/bevier_cafe.png"
+        "image": "/bevier_cafe.png"
     }
 ]
