@@ -20,7 +20,7 @@ export default function Product() {
                 </span>
               </div>
               {schedule.filter((meal) => meal.dayOfWeek == day).map((meal) => (
-                <MealBlock meal={meal}/>
+                <MealBlock meal={meal} key={meal.id}/>
               ))}
             </>
           )

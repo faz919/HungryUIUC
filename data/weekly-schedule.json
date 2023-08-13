@@ -22,7 +22,7 @@
     {
         "id": "dish-it-up",
         "name": "Dish It Up",
-        "shortDescription": "Join us for our Dish It Up/Lunch on Us Series at the Women's Resources Center every 2nd & 4th & 5th Monday at noon (12 p.m. CST), while listening to speakers, lecturers, and panelists explore a variety of topics at the intersection of gender and other social identities.",
+        "shortDescription": "Join us for our Dish It Up/Lunch on Us Series at the Women's Resources Center while listening to speakers, lecturers, and panelists explore a variety of topics at the intersection of gender and other social identities.",
         "link": "https://calendars.illinois.edu/detail/3079?eventId=33453402",
         "location": "Women's Resource Center, 616 E. Green St. Suite 202, Champaign",
         "dayOfWeek": "Monday",
@@ -88,5 +88,25 @@
         "dayOfWeek": "Friday",
         "meal": "Lunch",
         "time": "Weekly, 12:00pm to 1:00pm"
+    },
+    {
+        "id": "shabbat-hillel",
+        "name": "Shabbat Dinner at Hillel",
+        "shortDescription": "End the week on a high note! Celebrate Shabbat at Hillel with a yummy free meal and great friends!",
+        "link": "https://www.illinihillel.org/shabbat",
+        "location": "Cohen Hillel, 503 E John St, Champaign",
+        "dayOfWeek": "Friday",
+        "meal": "Dinner",
+        "time": "Weekly, 7:00pm"
+    },
+    {
+        "id": "shabbat-chabad",
+        "name": "Shabbat Dinner at Chabad",
+        "shortDescription": "Turn an ordinary Friday night into a Shabbat Experience. Join fellow students for a five-course home cooked dinner in a warm atmosphere. New faces to meet, The Question of the Week, singing, stories and discussion throughout the night.",
+        "link": "https://www.jewishillini.org/templates/articlecco_cdo/aid/157407/jewish/Friday-Night-Live.htm",
+        "location": "Chabad Center, 209 E Armory Ave, Champaign",
+        "dayOfWeek": "Friday",
+        "meal": "Dinner",
+        "time": "Weekly, 7:30pm"
     }
 ]
