@@ -7,7 +7,7 @@ export default function Gallery() {
   return (
     <>
       <Header scrollHandler={() => {}} mainPageHeader={false} title={"Pop-up Events"}/>
-      <div className="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
+      <div className="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8 flex flex-col items-center">
         <div className="sm:py-15 mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8">
           <div className="text-left mt-4 flex items-center justify-between text-base font-medium text-gray-900">
             <h3>
@@ -22,8 +22,8 @@ export default function Gallery() {
             screenName: 'uiucfreefood'
           }}
           options={{
-            height: '400',
-            width: '100%'
+            height: '700',
+            width: '40vw'
           }}
         />
       </div>
