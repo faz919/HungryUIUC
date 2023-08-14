@@ -11,30 +11,28 @@ export default function QuoteCarousel() {
     useEffect(() => {
         const next = setInterval(() => {
             nextQuote();
-        }, 10000)
+        }, 15000)
         return () => clearInterval(next);
     }, [nextQuote])
     return (
         <div className="overflow-hidden relative pt-16 pb-5">
-            <div className='flex transition-transform ease-in-out duration-700' style={{ transform: `translateX(-${visibleQuote * 100}%)` }}>
+            <div className='flex transition-transform ease-in-out duration-700' style={{ transform: `translateX(-${visibleQuote * 100}vw)` }}>
                 {quotes &&
                     quotes.map((quote) => (
-                        <div className='w-screen items-center quote-div justify-items-center' key={quote.id}>
-                            <Quote quote={quote} />
-                        </div>
+                        <Quote quote={quote} key={quote.id}/>
                     ))
                 }
             </div>
             <div className="absolute inset-0 flex items-center justify-between">
                 <button
                     onClick={prevQuote}
-                    className="text-gray-900 p-20 pr-40 opacity-0 hover:opacity-100 transition-opacity duration-500"
+                    className="text-gray-900 p-20 opacity-0 hover:opacity-100 transition-opacity duration-500"
                 >
                     <ChevronLeft size={40} />
                 </button>
                 <button
                     onClick={nextQuote}
-                    className="text-gray-900 p-20 pl-40 opacity-0 hover:opacity-100 transition-opacity duration-500"
+                    className="text-gray-900 p-20 opacity-0 hover:opacity-100 transition-opacity duration-500"
                 >
                     <ChevronRight size={40} />
                 </button>

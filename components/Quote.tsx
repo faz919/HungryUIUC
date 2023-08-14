@@ -2,7 +2,8 @@
 
 export default function Quote({ quote }) {
   return (
-      <div className="mx-auto w-screen items-center content-center justify-items-center text-center">
+    <div className='w-screen items-center quote-div justify-items-center'>
+      <div className="mx-auto w-screen items-center content-center justify-items-center text-center pr-15">
           <p
               className="mt-1 text-xl font-bold uppercase text-gray-900 sm:text-4xl sm:tracking-tight lg:text-2xl quote-orange quote text-center w-5/6 mx-auto flex justify-center"
           >
@@ -14,6 +15,7 @@ export default function Quote({ quote }) {
           <p className="text-sm italic text-gray-500 text-center">
               {quote.reference}
           </p>
-      </div>
+      </div>                      
+    </div>
   )
 }
